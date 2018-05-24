@@ -1052,7 +1052,7 @@ E_{S_{\rob}=\gf,S_{\opp}=\gf}=\frac{\sum_{o=0}^{d}{f_\gf\left(o\right)\cdot P_\g
 \label{figures: So=GF, unknown So}
 \end{figure}
 
-As we can see in Figure 8, the expected profit for playing $\gf$ (red) is always greater than that of playing \gn (green)
+As we can see in Figure \ref{figures: So=GF, unknown So}, the expected profit for playing $\gf$ (red) is always greater than that of playing \gn (green)
 }
 
 \end{caseof}
@@ -1085,8 +1085,9 @@ In all of these models, we assumed that \opp doesn't know about \rob existence (
 In this part, let us try and analyze the game when \opp has the same information model as \rob.
 \subsubsection{Symmetrical Perfect Information}
 Here, each player knows all about their opponent: both \rob and \opp knows about their opponents existence, their initial position and their strategy.
-Recall that in the equivalent asymmetrical case, \rob chose to go toward \opp initial position, and we proved the optimality of this.
-Now, assume that \opp knows \rob's strategy, and now has the opportunity to choose play in response: since it wants to maximize its \fcc, and it knows that when it'll meet \rob, \rob will turn and go toward the edge in its horizon, \opp will try and maximize the number of cells it cover before meeting with \opp, since from their behaviors we knows that after meeting with each other, each one will cover the cells left in its side of \w. In order to maximize this, \opp will go toward $i_{\rob}$, \rob's initial position, until meeting, then turn around and cover whats left.
+Recall that in the equivalent asymmetrical case, \rob chose playing \go, and we proved the optimality of this.
+
+Now, assume that \opp knows \rob's strategy, and now has the opportunity to choose how to play in response: since it wants to maximize its \fcc, and it knows that when it'll meet \rob, \rob will turn and go toward the edge in its horizon, \opp will try and maximize the number of cells it cover before meeting with \opp, since from their behaviors we knows that after meeting with each other, each one will cover the cells left in its side of \w. In order to maximize this, \opp will go toward $i_{\rob}$, \rob's initial position, until meeting, then turn around and cover whats left - \go.
 
 All we said above is regardless as to what strategy \rob is choosing, and all of it stands on the claim that regardless to $S_{\rob}$, $S_{\opp}$ will still choose as said above. The proof of correction mostly depends on what we say earlier, in the asymmetrical, full information, problem: we showed that both when $S_{\opp}=\gn$ and when $S_{\opp}=\gn$, \rob's best strategy is the same, going toward it first. Since this whole problem is symmetrical (in the sense of \rob and \opp roles, not the information symmetry we are discussing), this also applies to our case.
 Therefore, there is only one case left, where the opponent goes toward us. This we explained above, and are left to formally prove it (in the same way as in \ref{subsections: full and partial information, 1D world}).
@@ -1113,6 +1114,7 @@ The profit and expected profit will be the same.
 \subsubsection{Symmetrical Partial Information - Hidden Initial Position and Known Strategy}
 
 \subsubsection{Symmetrical Zero Information}
+In the asymmetric-information case, in order to maximize the averaged \fcc, \rob choose $S_\rob=\gf$. There, it only take in consider the fact that
 
 
 
